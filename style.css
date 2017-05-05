@@ -1,0 +1,183 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
+@font-face {
+    font-family: 'TimeBurner';
+    src: url('fonts/timeburner_regular.eot') format('eot'),
+    url('fonts/timeburner_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 60px;
+}
+
+hr {
+    margin: auto;
+    width: 100%;
+    background-color: #000;
+    height: 1px;
+    border: none;
+}
+
+hr.left {
+    margin-right: 20px;
+}
+
+hr.right {
+    margin-left: 20px;
+}
+
+#page {
+    /*width: 960px;*/
+    /*margin: auto;*/
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.section-title {
+    display: flex;
+    justify-content: space-between;
+    /*margin-top: 40px;*/
+    font-family: 'TimeBurner';
+    font-size: 24px;
+
+}
+
+#home {
+    font-size: 24px;
+}
+
+.section {
+    padding: 15px 0;
+    font-size: 18px;
+    display: flex;
+}
+
+.section-content {
+    width: 960px;
+    margin: auto;
+    /*flex-grow: 1;*/
+}
+
+#header {
+    top: 0;
+    height: 40px;
+}
+
+#header-home {
+    font-size: 36px;
+    line-height: 34px;
+}
+
+#header-pointer {
+    position: absolute;
+    bottom: 0;
+
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #fff;
+}
+
+.header-section {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.flex-spacer {
+    flex-grow: 1;
+}
+
+.spacer {
+    width: 36px;
+}
+
+#footer {
+    bottom: 0;
+    height: 20px;
+    font-size: medium;
+}
+
+.banner {
+    font-family: 'TimeBurner';
+    width: 100%;
+    position: fixed;
+    background-color: #b8d9c8;
+    padding: 10px 0 10px 0;
+}
+
+.banner-content {
+    width: 960px;
+    display: flex;
+    margin: auto;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    border: 1px solid black;
+    padding: 10px 14px;
+    background-color: white;
+    font-size: 24px;
+}
+
+.button:hover {
+    background-color: lightgray;
+}
+
+.button:active {
+    background-color: gray;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+}
+
+.fa-lg {
+    vertical-align: -9% !important;
+}
+
+#home {
+    background-color: #fff;
+}
+
+#about {
+    background-color: #eee;
+}
+
+#growth {
+    background-color: #ddd;
+}
+
+#links {
+    background-color: #ccc;
+}
+
+#contact {
+    background-color: #bbb;
+}

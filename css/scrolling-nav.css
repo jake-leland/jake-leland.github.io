@@ -1,0 +1,127 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-weight: 300;
+    color: #000;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:768px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.section {
+    height: 100%;
+    padding-top: 75px;
+}
+
+@media(min-width:768px) {
+    .section {
+        padding-top: 150px;
+    }
+}
+
+.intro {
+    background: #ffffff;
+    font-size: 20px;
+}
+
+.work {
+    background: #f2f2f2;
+}
+
+.school {
+    background: #e6e6e6;
+}
+
+.research {
+    background: #d9d9d9;
+}
+
+.projects {
+    background: #cccccc;
+}
+
+.more {
+    background: #bfbfbf;
+}
+
+
+/**/
+
+@font-face {
+    font-family: 'TimeBurner';
+    src: url('../fonts/timeburner_regular.eot') format('eot'),
+    url('../fonts/timeburner_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar {
+    font-family: 'TimeBurner';
+    font-size: 18px;
+}
+
+.navbar-brand{
+    font-size: 28px;
+}
+
+.frame {
+    border-radius: 10px;
+    margin-right: 15px;
+    border: 1px solid #8aa296;
+}
+
+.section-title {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'TimeBurner';
+    font-size: 24px;
+}
+
+hr {
+    margin: auto;
+    flex-grow: 1;
+    background-color: #8aa296;
+    height: 1px;
+    border: none;
+}
+
+hr.left {
+    margin-right: 20px;
+}
+
+hr.right {
+    margin-left: 20px;
+}
+
+.thumbnail {
+    border-color: #b8d9c8;
+}
+
+a.thumbnail:hover {
+    border-color: #8aa296;
+}

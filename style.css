@@ -15,11 +15,12 @@ html, body {
 
 body {
     padding-top: 60px;
+    font-weight: 300;
 }
 
 hr {
     margin: auto;
-    width: 100%;
+    flex-grow: 1;
     background-color: #000;
     height: 1px;
     border: none;
@@ -39,7 +40,7 @@ hr.right {
 
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    text-align: justify;
+    /*text-align: justify;*/
 }
 
 .section-title {
@@ -166,7 +167,7 @@ a {
     background-color: #fff;
 }
 
-#about {
+#work {
     background-color: #eee;
 }
 
@@ -180,4 +181,17 @@ a {
 
 #contact {
     background-color: #bbb;
+}
+
+.carousel {
+
+}
+
+.left-side {
+    float: left;
+    margin-right: 20px;
+}
+
+.frame {
+    border-radius: 10px;
 }

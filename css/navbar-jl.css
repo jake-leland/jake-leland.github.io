@@ -1,0 +1,75 @@
+/*http://stackoverflow.com/questions/18529274/change-navbar-color-in-twitter-bootstrap-3*/
+
+/* navbar */
+.navbar-jl {
+    /*background-color: #F8F8F8;*/
+    background-color: #b8d9c8;
+    /*border-color: #E7E7E7;*/
+    border-color: #8aa296;
+}
+
+/* Title */
+.navbar-jl .navbar-brand {
+    /*color: #777;*/
+    color: inherit;
+}
+
+.navbar-jl .navbar-brand:hover,
+.navbar-jl .navbar-brand:focus {
+    /*color: #5E5E5E;*/
+    color: inherit;
+}
+
+/* Link */
+.navbar-jl .navbar-nav > li > a {
+    /*color: #777;*/
+    color: inherit;
+}
+
+.navbar-jl .navbar-nav > li > a:hover,
+.navbar-jl .navbar-nav > li > a:focus {
+    /*color: #333;*/
+    color: inherit;
+    background-color: inherit;
+}
+
+.navbar-jl .navbar-brand:hover,
+.navbar-jl .navbar-nav > li > a:hover {
+    color: #8aa296;
+}
+
+.navbar-jl .navbar-nav > .active > a,
+.navbar-jl .navbar-nav > .active > a:hover,
+.navbar-jl .navbar-nav > .active > a:focus {
+    /*color: #555;*/
+    color: inherit;
+    /*background-color: #E7E7E7;*/
+    background-color: #8aa296;
+}
+
+.navbar-jl .navbar-nav > .active > a:hover {
+    color: #b8d9c8;
+}
+
+/* Mobile version */
+.navbar-jl .navbar-toggle {
+    /*border-color: #DDD;*/
+    border-color: #8aa296;
+}
+
+.navbar-jl .navbar-toggle:hover,
+.navbar-jl .navbar-toggle:focus {
+    /*background-color: #DDD;*/
+    background-color: #8aa296;
+}
+
+.navbar-jl .navbar-toggle .icon-bar {
+    /*background-color: #CCC;*/
+    background-color: #000;
+}
+
+.navbar-jl .navbar-collapse,
+.navbar-default .navbar-form {
+    /*border-color: #E7E7E7;*/
+    border-color: #8aa296;
+}

@@ -38,7 +38,7 @@
         ga('send', 'pageview');
     </script>
 </head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="51">
 
 <!-- Navigation -->
 <nav class="navbar navbar-jl navbar-fixed-top" role="navigation">
@@ -86,31 +86,23 @@
 <!-- Intro Section -->
 <section id="intro" class="intro section">
     <div class="container">
-        <!--<div class="row">-->
-        <!--<div class="col-lg-2">-->
-        <!--<img class="img-responsive frame" src="img/Leland_J_298_SEC.jpg" height="200px">-->
-        <!--</div>-->
-        <!--<div class="col-lg-10 media-middle">-->
-        <!--<p>Howdy!</p>-->
-        <!--<p>My name is Jake, and it looks like you've found your way to my website. Chances are, you'll-->
-        <!--probably find me writing code, making music, or building/fixing something.</p>-->
-        <!--<p>This site serves as a big, interactive "about me" page. Take a look around!</p>-->
-        <!--</div>-->
-        <!--</div>-->
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="media">
-                    <div class="media-left">
-                        <img class="media-object frame" src="img/Leland_J_298_SEC.jpg" height="200px">
-                    </div>
-                    <div class="media-body media-middle">
-                        <p>Howdy!</p>
-                        <p>My name is Jake, and it looks like you've found your way to my website. Chances are, you'll
-                            probably find me writing code, making music, or building/fixing something.</p>
-                        <p>This site serves as a big, interactive "about me" page. Take a look around!</p>
-                    </div>
-                </div>
+        <div class="media hidden-xs">
+            <div class="media-left">
+                <img class="media-object img-rounded frame mr-15" src="img/Leland_J_298_SEC.jpg" height="200px">
             </div>
+            <div class="media-body media-middle">
+                <p>Howdy!</p>
+                <p>My name is Jake, and it looks like you've found your way to my website. Chances are, you'll
+                    probably find me writing code, making music, or building/fixing something.</p>
+                <p>This site serves as a big, interactive "about me" page. Take a look around!</p>
+            </div>
+        </div>
+        <div class="visible-xs">
+            <img class="img-rounded frame mb-15 center-block" src="img/Leland_J_298_SEC.jpg" height="125px">
+            <p>Howdy!</p>
+            <p>My name is Jake, and it looks like you've found your way to my website. Chances are, you'll
+                probably find me writing code, making music, or building/fixing something.</p>
+            <p>This site serves as a big, interactive "about me" page. Take a look around!</p>
         </div>
     </div>
 </section>
@@ -118,92 +110,176 @@
 <!-- Work Section -->
 <section id="work" class="work section">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title">
-                    <hr class='left'>
-                    work
-                    <hr class='right'>
-                </div>
-                <div id="work-carousel" class="carousel slide" data-interval="false">
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <p>
-                                Where have I worked? I've had a couple of different jobs over the past few years. Check
-                                them out by clicking on the icons below!
-                            </p>
+        <div class="section-title">
+            <hr class='left'>
+            work
+            <hr class='right'>
+        </div>
+        <div id="work-carousel" class="carousel slide" data-interval="false">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <p align="center">
+                        Where have I worked? I've had a couple of different jobs over the past few years. Check them out
+                        by clicking on the icons below!
+                    </p>
 
-                            <div class="row">
-                                <div class="col-xs-6 col-md-3">
-                                    <a data-target="#work-carousel" data-slide-to="1" class="thumbnail">
-                                        <img src="img/dell2.png" alt="Dell">
-                                    </a>
-                                </div>
-
-                                <div class="col-xs-6 col-md-3">
-                                    <a data-target="#work-carousel" data-slide-to="2" class="thumbnail">
-                                        <img src="img/lm2.png" alt="Lockheed Martin">
-                                    </a>
-                                </div>
-
-                                <div class="col-xs-6 col-md-3">
-                                    <a data-target="#work-carousel" data-slide-to="3" class="thumbnail">
-                                        <img src="img/apex2.png" alt="Apex">
-                                    </a>
-                                </div>
-
-                                <div class="col-xs-6 col-md-3">
-                                    <a data-target="#work-carousel" data-slide-to="4" class="thumbnail">
-                                        <img src="img/ct2.png" alt="Camp Thurman">
-                                    </a>
-                                </div>
-                            </div>
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-3">
+                            <a class="frame img-rounded" data-target="#work-carousel" data-slide-to="1">
+                                <img class="img-responsive" src="img/dell2.png" alt="Dell">
+                            </a>
                         </div>
 
-                        <div class="item">
-                            <p>
-                               tbd
-                            </p>
+                        <div class="col-xs-6 col-sm-3">
+                            <a class="frame img-rounded" data-target="#work-carousel" data-slide-to="2">
+                                <img class="img-responsive" src="img/lm2.png" alt="Lockheed Martin">
+                            </a>
                         </div>
 
-                        <div class="item">
-                            <p>
-                                secrets
-                            </p>
+                        <div class="col-xs-6 col-sm-3">
+                            <a class="frame img-rounded" data-target="#work-carousel" data-slide-to="3">
+                                <img class="img-responsive" src="img/apex2.png" alt="Apex">
+                            </a>
                         </div>
 
-                        <div class="item">
-                            <p>
-                                stuff
-                            </p>
-                        </div>
-
-                        <div class="item">
-                            <p>
-                                stuff
-                            </p>
+                        <div class="col-xs-6 col-sm-3">
+                            <a class="frame img-rounded" data-target="#work-carousel" data-slide-to="4">
+                                <img class="img-responsive" src="img/ct2.png" alt="Camp Thurman">
+                            </a>
                         </div>
                     </div>
+                </div>
 
-                    <ol class="carousel-indicators">
-                        <li data-target="#work-carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#work-carousel" data-slide-to="1"></li>
-                        <li data-target="#work-carousel" data-slide-to="2"></li>
-                        <li data-target="#work-carousel" data-slide-to="3"></li>
-                        <li data-target="#work-carousel" data-slide-to="4"></li>
-                    </ol>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-xs-5 col-sm-4 col-md-3">
+                            <a class="frame img-rounded" href="http://dell.com" target="_blank">
+                                <img class="img-responsive" src="img/dell2.png" alt="Dell">
+                            </a>
+                        </div>
+                        <div class="col-xs-7 col-sm-8 col-md-9">
+                            <div class="item-title">Dell</div>
+                            <div class="item-subtitle">
+                                Austin, Texas<br>
+                                Summer 2017
+                            </div>
+                        </div>
+                    </div>
+                    Client Solutions Intern
+                    <ul>
+                        <li>To be determined!</li>
+                    </ul>
+                </div>
 
-                    <a class="left carousel-control" href="#work-carousel" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#work-carousel" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-xs-5 col-sm-4 col-md-3">
+                            <a class="frame img-rounded" href="http://lockheedmartin.com" target="_blank">
+                                <img class="img-responsive" src="img/lm2.png" alt="Lockheed Martin">
+                            </a>
+                        </div>
+                        <div class="col-xs-7 col-sm-8 col-md-9">
+                            <div class="item-title">Lockheed Martin</div>
+                            <div class="item-subtitle">
+                                Fort Worth, Texas<br>
+                                Summer 2016
+                            </div>
+                        </div>
+                    </div>
+                    Software Systems Intern
+                    <ul>
+                        <li>Stuff</li>
+                    </ul>
+                </div>
+
+                <div class="item">
+                    <div class="row">
+                        <div class="col-xs-5 col-sm-4 col-md-3">
+                            <a class="frame img-rounded" href="http://apexcapitalcorp.com" target="_blank">
+                                <img class="img-responsive" src="img/apex2.png" alt="Apex Capital">
+                            </a>
+                        </div>
+                        <div class="col-xs-7 col-sm-8 col-md-9">
+                            <div class="item-title">Apex Capital Corp</div>
+                            <div class="item-subtitle">
+                                Fort Worth, Texas<br>
+                                Summer 2014
+                            </div>
+                        </div>
+                    </div>
+                    Software Engineer Intern
+                    <ul>
+                        <li>Developed and implemented plugins for issue tracking software and repository
+                            management software.
+                        </li>
+                        <li>Designed and developed the front-end and back-end of a web application (Express.js,
+                            MongoDB, REST, AngularJS, Google Maps API) to help create and manage client
+                            visitation trips.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="item">
+                    <div class="row">
+                        <div class="col-xs-5 col-sm-4 col-md-3">
+                            <a class="frame img-rounded" href="http://campthurman.org" target="_blank">
+                                <img class="img-responsive" src="img/ct2.png" alt="Camp Thurman">
+                            </a>
+                        </div>
+                        <div class="col-xs-7 col-sm-8 col-md-9">
+                            <div class="item-title">Camp Thurman</div>
+                            <div class="item-subtitle">
+                                Pantego, Texas<br>
+                                Summers 2010 &ndash; 2014
+                            </div>
+                        </div>
+                    </div>
+                    Special Projects Manager (2014)
+                    <ul>
+                        <li>Digitized camp records.</li>
+                        <li>Responsible for troubleshooting camp network and security systems, and for upgrading audio
+                            systems.
+                        </li>
+                        <li>Collaborated with external vendors.</li>
+                    </ul>
+
+                    Videographer (2013)
+                    <ul>
+                        <li>Filmed and edited videos for camp promotional purposes.</li>
+                        <li>Responsible for maintaining camp audio systems.</li>
+                    </ul>
+
+                    Assistant Counselor (2012)
+                    <ul>
+                        <li>Facilitated numerous camp activities.</li>
+                        <li>Helped counselors manage the groups of campers.</li>
+                    </ul>
+
+                    Counselor in Training (2010-2011)
+                    <ul>
+                        <li>Facilitated numerous camp activities.</li>
+                        <li>Helped counselors manage the groups of campers.</li>
+                    </ul>
                 </div>
             </div>
+
+            <ol class="carousel-indicators">
+                <li data-target="#work-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#work-carousel" data-slide-to="1"></li>
+                <li data-target="#work-carousel" data-slide-to="2"></li>
+                <li data-target="#work-carousel" data-slide-to="3"></li>
+                <li data-target="#work-carousel" data-slide-to="4"></li>
+            </ol>
+
+            <a class="left carousel-control" href="#work-carousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#work-carousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
 </section>
@@ -211,14 +287,96 @@
 <!-- School Section -->
 <section id="school" class="school section">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title">
-                    <hr class='left'>
-                    school
-                    <hr class='right'>
+        <div class="section-title">
+            <hr class='left'>
+            school
+            <hr class='right'>
+        </div>
+        <div id="school-carousel" class="carousel slide" data-interval="false">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <p align="center">
+                        I'm currently an undergraduate student at Texas A&amp;M University, and I graduated a few years
+                        ago from Martin High School.
+                    </p>
+
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-3 col-sm-offset-3">
+                            <a class="frame img-rounded" data-target="#school-carousel" data-slide-to="1">
+                                <img class="img-responsive" src="img/tamu2.png" alt="Texas A&amp;M">
+                            </a>
+                        </div>
+
+                        <div class="col-xs-6 col-sm-3">
+                            <a  class="frame img-rounded" data-target="#school-carousel" data-slide-to="2">
+                                <img class="img-responsive" src="img/mhs2.png" alt="Martin HS">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="row">
+                        <div class="col-xs-5 col-sm-4 col-md-3">
+                            <a class="frame img-rounded"  href="http://tamu.edu" target="_blank">
+                                <img class="img-responsive" src="img/tamu2.png" alt="Texas A&amp;M">
+                            </a>
+                        </div>
+                        <div class="col-xs-7 col-sm-8 col-md-9">
+                            <div class="item-title">Texas A&amp;M</div>
+                            <div class="item-subtitle">
+                                College Station, Texas<br>
+                                Fall 2014 &ndash; Spring 2018
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            Client Solutions Intern
+                            <ul>
+                                <li>To be determined!</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="row">
+                        <div class="col-xs-5 col-sm-4 col-md-3">
+                            <a class="frame img-rounded" href="http://aisd.net/martin/" target="_blank">
+                                <img class="img-responsive" src="img/mhs2.png" alt="Martin High School">
+                            </a>
+                        </div>
+                        <div class="col-xs-7 col-sm-8 col-md-9">
+                            <div class="item-title">Martin High School</div>
+                            <div class="item-subtitle">
+                                Arlington, Texas<br>
+                                Fall 2010 &ndash; Spring 2014
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            Software Systems Intern
+                            <ul>
+                                <li>Stuff</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <ol class="carousel-indicators">
+                <li data-target="#school-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#school-carousel" data-slide-to="1"></li>
+                <li data-target="#school-carousel" data-slide-to="2"></li>
+            </ol>
+
+            <a class="left carousel-control" href="#school-carousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#school-carousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
 </section>
@@ -226,14 +384,10 @@
 <!-- Research Section -->
 <section id="research" class="research section">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title">
-                    <hr class='left'>
-                    research
-                    <hr class='right'>
-                </div>
-            </div>
+        <div class="section-title">
+            <hr class='left'>
+            research
+            <hr class='right'>
         </div>
     </div>
 </section>
@@ -241,14 +395,10 @@
 <!-- Projects Section -->
 <section id="projects" class="projects section">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title">
-                    <hr class='left'>
-                    projects
-                    <hr class='right'>
-                </div>
-            </div>
+        <div class="section-title">
+            <hr class='left'>
+            projects
+            <hr class='right'>
         </div>
     </div>
 </section>
@@ -256,14 +406,10 @@
 <!-- More Section -->
 <section id="more" class="more section">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title">
-                    <hr class='left'>
-                    more
-                    <hr class='right'>
-                </div>
-            </div>
+        <div class="section-title">
+            <hr class='left'>
+            more
+            <hr class='right'>
         </div>
     </div>
 </section>

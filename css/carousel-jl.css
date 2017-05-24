@@ -10,6 +10,10 @@
 
 .carousel-indicators li {
     border-color: #b8d9c8;
+
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
 }
 
 .carousel-indicators li:hover {
@@ -21,8 +25,12 @@
 }
 
 .carousel-control {
-    top: -16px; /* set control area to be below title bar */
+    /*top: -16px; !* set control area to be below title bar *!*/
     width: 5%;
+
+    -webkit-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
 }
 
 .carousel-control, .carousel-control:focus {

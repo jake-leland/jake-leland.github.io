@@ -3,12 +3,15 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
 
 body {
     width: 100%;
     height: 100%;
+    /*color: #000;*/
+    font-size: 16px;
     font-weight: 300;
-    color: #000;
+    font-family: 'Open Sans', sans-serif;
 }
 
 html {
@@ -16,12 +19,12 @@ html {
     height: 100%;
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
     .navbar {
         padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
     }
 
     .top-nav-collapse {
@@ -34,11 +37,11 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .section {
-    height: 100%;
+    min-height: 100%;
     padding-top: 75px;
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
     .section {
         padding-top: 150px;
     }
@@ -46,7 +49,7 @@ of those sections to manage the look and feel of the site. */
 
 .intro {
     background: #ffffff;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .work {
@@ -69,7 +72,6 @@ of those sections to manage the look and feel of the site. */
     background: #bfbfbf;
 }
 
-
 /**/
 
 @font-face {
@@ -85,14 +87,38 @@ of those sections to manage the look and feel of the site. */
     font-size: 18px;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 28px;
 }
 
 .frame {
-    border-radius: 10px;
-    margin-right: 15px;
+    display: block;
+    /*padding: 4px;*/
+    margin-bottom: 20px;
+    /*line-height: 1.42857143;*/
+    background-color: #fff;
     border: 1px solid #8aa296;
+
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+a.frame {
+    border-color: #b8d9c8;
+}
+
+a.frame:hover,
+a.frame:focus {
+    border-color: #8aa296;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
 }
 
 .section-title {
@@ -100,6 +126,7 @@ of those sections to manage the look and feel of the site. */
     justify-content: space-between;
     font-family: 'TimeBurner';
     font-size: 24px;
+    margin-bottom: 20px;
 }
 
 hr {
@@ -118,10 +145,45 @@ hr.right {
     margin-left: 20px;
 }
 
-.thumbnail {
-    border-color: #b8d9c8;
+/*.thumbnail {*/
+/*border-color: #b8d9c8;*/
+/*}*/
+
+/*a.thumbnail:hover,*/
+/*a.thumbnail:focus {*/
+/*border-color: #8aa296;*/
+/*}*/
+
+.item-image {
+    width: 100px;
 }
 
-a.thumbnail:hover {
-    border-color: #8aa296;
+@media (min-width: 768px) {
+    .item-image {
+        width: 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    .item-image {
+        width: 200px;
+    }
+}
+
+.item-title {
+    font-size: 18px;
+}
+
+.item-subtitle {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    .item-title {
+        font-size: 28px;
+    }
+
+    .item-subtitle {
+        font-size: 18px;
+    }
 }

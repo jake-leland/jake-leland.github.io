@@ -94,7 +94,7 @@ of those sections to manage the look and feel of the site. */
 .frame {
     display: block;
     /*padding: 4px;*/
-    margin-bottom: 20px;
+    margin-bottom: 15px; /*20px;*/
     /*line-height: 1.42857143;*/
     background-color: #fff;
     border: 1px solid #8aa296;
@@ -186,4 +186,15 @@ hr.right {
     .item-subtitle {
         font-size: 18px;
     }
+}
+
+.well {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+
+    background-color: rgba(0, 0, 0, 0.05);
+    border: none;
+
+    margin-bottom: 15px;
 }

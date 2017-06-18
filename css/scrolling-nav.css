@@ -43,6 +43,10 @@ of those sections to manage the look and feel of the site. */
 
 @media (min-width: 768px) {
     .section {
+        padding-top: 100px;
+    }
+
+    .intro {
         padding-top: 150px;
     }
 }
@@ -99,9 +103,9 @@ of those sections to manage the look and feel of the site. */
     background-color: #fff;
     border: 1px solid #8aa296;
 
-    -webkit-transition: border .2s ease-in-out;
-    -o-transition: border .2s ease-in-out;
-    transition: border .2s ease-in-out;
+    /*-webkit-transition: border .2s ease-in-out;*/
+    /*-o-transition: border .2s ease-in-out;*/
+    /*transition: border .2s ease-in-out;*/
 }
 
 a.frame {
@@ -143,6 +147,10 @@ hr.left {
 
 hr.right {
     margin-left: 20px;
+}
+
+.thumbnail {
+    border-radius: 6px;
 }
 
 /*.thumbnail {*/
@@ -197,4 +205,14 @@ hr.right {
     border: none;
 
     margin-bottom: 15px;
+}
+
+.input-group-addon {
+    width: inherit;
+}
+
+.btn {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
 }

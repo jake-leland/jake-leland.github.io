@@ -57,23 +57,28 @@ of those sections to manage the look and feel of the site. */
 }
 
 .work {
-    background: #f2f2f2;
+    /*background: #f2f2f2;*/
+    background: #fafafa;
 }
 
 .school {
-    background: #e6e6e6;
+    /*background: #e6e6e6;*/
+    background: #f5f5f5;
 }
 
 .research {
-    background: #d9d9d9;
+    /*background: #d9d9d9;*/
+    background: #f0f0f0;
 }
 
 .projects {
-    background: #cccccc;
+    /*background: #cccccc;*/
+    background: #ebebeb;
 }
 
 .more {
-    background: #bfbfbf;
+    /*background: #bfbfbf;*/
+    background: #e6e6e6;
 }
 
 /**/
